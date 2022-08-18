@@ -28,10 +28,10 @@ Run SWI-Prolog on the directory containing 1 and 2, then consult 1. Then
 
 ## Licence
 
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+See LICENSE.txt.
 
 ## Author
 
-Takahiro Sawasaki (usecase_ai4legal.pl, README.md)
-
 Ken Satoh (pil_interpreter_ai4legal.pl)
+
+Takahiro Sawasaki (usecase_ai4legal.pl, README.md)
