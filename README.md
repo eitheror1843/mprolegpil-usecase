@@ -2,12 +2,12 @@
 
 Overview
 
+This repository contains programs used in a paper under review: Takahiro Sawasaki and Ken Satoh and Aurore Clément Troussel. 2022. A Usecase on GDPR of Modular-PROLEG for Private International Law.
+
 The main files are
 
-1. pil_interpreter_ai4legal.pl - The interpreter of Modular-PROLEG for PIL used in [Sawa2022].
-2. usecase_ai4legal.pl - Program $\mathcal{P}_{1}$ of Modular-PROLEG for PIL used in [Sawa2022], which is an implementation of the reasoning in Case of Data Transfer.
-
-where [Sawa2022] is Takahiro Sawasaki and Ken Satoh and Aurore Clément Troussel. 2022. A Usecase on GDPR of Modular-PROLEG for Private International Law. under review.
+1. pil_interpreter_ai4legal.pl - The interpreter of Modular-PROLEG for PIL used in the paper.
+2. usecase_ai4legal.pl - Program $\mathcal{P}_{1}$ of Modular-PROLEG for PIL used in the paper, which is an implementation of the reasoning in Case of Data Transfer.
 
 ## Requirement
 
