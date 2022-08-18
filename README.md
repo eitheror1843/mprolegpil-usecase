@@ -1,26 +1,37 @@
 # mprolegpil-usecase
 
 Overview
-- (Sawa2022) - Takahiro Sawasaki and Ken Satoh and Aurore Clément Troussel. 2022. A Usecase on GDPR of Modular-PROLEG for Private International Law. under review.
-- pil_interpreter_v220402.pl - The interpreter of Modular-PROLEG for PIL used in (Sawa2022).
-- exPIL_uc_v220808.pl - Program $\mathcal{P}_{1}$ of Modular-PROLEG for PIL used in (Sawa2022), which is an implementation of the reasoning in Case of Data Transfer.
+
+The main files are
+
+1. pil_interpreter_ai4legal.pl - The interpreter of Modular-PROLEG for PIL used in [Sawa2022].
+2. usecase_ai4legal.pl - Program $\mathcal{P}_{1}$ of Modular-PROLEG for PIL used in [Sawa2022], which is an implementation of the reasoning in Case of Data Transfer.
+
+where [Sawa2022] is Takahiro Sawasaki and Ken Satoh and Aurore Clément Troussel. 2022. A Usecase on GDPR of Modular-PROLEG for Private International Law. under review.
 
 ## Requirement
-- SWI-Prolog version (threaded, 64 bits, version 8.4.1)
 
-
-## Usage
+Install SWI-Prolog (version 8.4.1 for windows 64 bit confirmed).
 
 ## Install
 
-## Contribution
+Place both 1 and 2 in the same directory.
+
+## Usage
+
+Run SWI-Prolog on the directory containing 1 and 2, then consult 1. Then
+
+- ask t1 to the prompt if you want to confirm that
+  claim(empl(o(ja)),co,inBreachOf(transfer(o(ja),o(c1),data(empl(o(ja)))),cj1))#ja is false.
+- ask t2 to the prompt if you want to confirm that 
+  claim(empl(o(ja)),co,inBreachOf(transfer(o(c1),o(c2),data(empl(o(ja)))),c12))#ja is true.
 
 ## Licence
 
 [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
 ## Author
-Takahiro Sawasaki (exPIL_uc_v220808.pl, README.md)
-Ken Satoh (pil_interpreter_v220402.pl)
 
-[tcnksm](https://github.com/tcnksm)
+Takahiro Sawasaki (usecase_ai4legal.pl, README.md)
+
+Ken Satoh (pil_interpreter_ai4legal.pl)
